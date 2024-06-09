@@ -244,8 +244,4 @@ table ol {
     padding-top: 2px;
 }
 
-table {
-    border-left: 3px solid #dedede;
-}
-
-.align-all tr td {vertical-align: top; text-align: left;}  
+.align-all tr td {vertical-align: top; text-align: left; padding: 0 15px;}  

@@ -244,4 +244,4 @@ table ol {
     padding-top: 2px;
 }
 
-.align-all th tr td {vertical-align: top; text-align: left; padding: 0 15px;}  
+.align-all th, td {vertical-align: top; text-align: left; padding: 0 15px;}  

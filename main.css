@@ -10,7 +10,7 @@ body {
     font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.7;
     font-weight: 400;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     color: #222; 
 }
 
@@ -218,7 +218,7 @@ table ol {
 }
 
 .nav a:hover {
-    color: #40A596;
+    color: #012169;
 }
 
 #empty {

@@ -10,7 +10,7 @@ body {
     font-size: 1.6em; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.7;
     font-weight: 400;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Helvetica", sans-serif;
     color: #222; 
 }
 
@@ -242,3 +242,5 @@ table ol {
     margin-left: 5px;
     padding-top: 2px;
 }
+
+.top-align-all td {vertical-align: top; }  

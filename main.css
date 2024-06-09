@@ -244,4 +244,13 @@ table ol {
     padding-top: 2px;
 }
 
+table tr td {
+    border-right: 1px solid #dedede;
+    color: black
+  }
+  
+table {
+    border-left: 1px solid #dedede;
+}
+
 .top-align-all td {vertical-align: top; text-align: left;}  

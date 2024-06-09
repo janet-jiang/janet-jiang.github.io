@@ -155,7 +155,7 @@ a {
 }
 
 table ol {
-    margin: 0%;
+    margin: 2%;
     margin-left: -1.3em;
 }
 
@@ -170,6 +170,7 @@ table ol {
     border-collapse: collapse;
     vertical-align: top;
     text-align: left;
+    padding: 10px;
 }
 
 .rg th, .rg td {

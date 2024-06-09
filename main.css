@@ -169,6 +169,7 @@ table ol {
     border-bottom: 1px solid black;
     border-collapse: collapse;
     vertical-align: top;
+    text-align: left;
 }
 
 .rg th, .rg td {

@@ -140,7 +140,7 @@ h1>a:hover {
 }
 
 #footer a:hover, #contentpane a:hover {
-    color: #40A596;
+    color: #012169;
 }
 
 hr {
@@ -149,7 +149,7 @@ hr {
 }
 
 a {
-    color: #6BD8C9;  
+    color: #012169;  
     text-decoration: none;
     /*font-weight: normal;*/
 }

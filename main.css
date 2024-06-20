@@ -59,7 +59,7 @@ div#contentpane {
 div#content {
     position: relative;
     top: 20px;
-    margin-left:40px;
+    margin-left:0px;
     margin-right:40px;
     width: auto;
 }
@@ -69,7 +69,7 @@ div#pagetitle{
     text-align:left;
     margin-top: 3%;
     /*margin-left: 10%;*/
-    margin-left: auto;
+    margin-left: 0px;
     margin-right: auto;
     width: 700px;
     margin-bottom: 3%; /*previously 4*/

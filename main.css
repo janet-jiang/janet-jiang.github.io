@@ -37,7 +37,7 @@ div#headpane {
     margin-right:auto;
     margin-top:40px;
     height:auto;
-    width: 950px;
+    width: 100%;
 }
 
 div#contentpane {
@@ -46,7 +46,7 @@ div#contentpane {
     margin-top: -10px;
     margin-left:auto;
     margin-right:auto;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     color: #222222;
     font-size:100%;
     width: 85%; 
@@ -66,9 +66,8 @@ div#content {
 
 div#bio {
     position: relative;
-    margin-left:315px;
     margin-right:0px;
-    width: auto;
+    width: 75%;
 }
 
 div#pagetitle{
@@ -76,7 +75,7 @@ div#pagetitle{
     margin-top: 3%;
     margin-left: 0px;
     margin-right: auto;
-    /* width: 1000px; */
+    width: 100%;
     margin-bottom: 3%; /*previously 4*/
     display: flex;
     justify-content: left;
@@ -86,15 +85,16 @@ div#pagetitle{
     position: relative;
     margin-left: 0px;
     border: 2px solid #FFFFFF;
-    width: 300px;
-    height: 150px;
+    width: 25%;
     margin-bottom: 10px;
     margin-right: 10px;
+    height: 100%;
 }
 
 #name {
     vertical-align: top;
     text-align: left;
+    width:75%
 }
 
 p {

@@ -49,7 +49,7 @@ div#contentpane {
     padding-bottom: 30px;
     color: #222222;
     font-size:100%;
-    width: 85%; 
+    width: 95%; 
     background-color: #FFFFFF;
     clear: both;
     line-height: 150%;
@@ -61,13 +61,13 @@ div#content {
     top: 20px;
     margin-left:0px;
     margin-right:10px;
-    width: auto;
+    width: 95%;
 }
 
 div#bio {
     position: relative;
     margin-right:0px;
-    width: 75%;
+    width: 95%;
 }
 
 div#pagetitle{
@@ -85,16 +85,21 @@ div#pagetitle{
     position: relative;
     margin-left: 0px;
     border: 2px solid #FFFFFF;
-    width: 25%;
+    width: 30%;
     margin-bottom: 10px;
     margin-right: 10px;
     height: 100%;
 }
 
+/* @media screen and (max-width: 800px) { 
+   #headerimg { display: none; } 
+} */
+
 #name {
     vertical-align: top;
     text-align: left;
-    width:75%
+    width:70%;
+    z-index:1
 }
 
 p {
@@ -112,12 +117,15 @@ h1{
 
 h2{
     color: #222222;
-    margin: -1% 0%;
+    margin: 0% 0% 1% 0%;
+    /* margin: -1% 0%; */
     font-weight: bold;
 }
 
 h3 {
+    color: #222222;
     font-weight: bold;
+    margin: 0% 0% 1% 0%;
 }
 
 h1 > a{
@@ -250,3 +258,11 @@ table ol {
 
 .align-all td tr {vertical-align: top; 
     text-align: center; padding: 10px}  
+
+.circle-photo {
+  width: 200px;                  /* Must be equal to height */
+  height: 200px;                 /* Must be equal to width */
+  border-radius: 50%;            /* Turns the square into a circle */
+  object-fit: cover;             /* Prevents stretching/distortion */
+  margin-right: 15px; 
+}
